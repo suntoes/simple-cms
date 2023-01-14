@@ -21,7 +21,7 @@
   <div class="nav nav-tabs" id="nav-tab" role="tablist">
     <button class="nav-link active" id="nav-published-tab" data-bs-toggle="tab" data-bs-target="#nav-published" type="button" role="tab" aria-controls="nav-published" aria-selected="true">Published</button>
     <button class="nav-link" id="nav-draft-tab" data-bs-toggle="tab" data-bs-target="#nav-draft" type="button" role="tab" aria-controls="nav-draft" aria-selected="false">Draft</button>
-    <a href="/page/edit.php?id=new" class="ms-auto">
+    <a href="/post/edit.php?id=new" class="ms-auto">
     <button type="button" class="btn btn-success rounded-pill my-1 me-2 me-md-3">Create</button>
     </a>
   </div>

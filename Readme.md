@@ -14,7 +14,7 @@ HOME (/):
 
 * Overview of summary of every posts with image thumbnail if available.
 
-PAGE (/page):
+POST (/post):
 
 * Detailed view and editor page for posts.
 
@@ -54,7 +54,7 @@ LOGIN & SIGNUP (/login.php & /signup.php):
 | includes/dbh.inc.php     | Main DB connection file also used by other components                                             |
 | includes/post.inc.php    | Api handler used by `js/main.js` for infinite scrolling                                           |
 
-| Items in /page           | Content                                                                                           |
+| Items in /post           | Content                                                                                           |
 | ------------------------ | --------------------------------------------------------------------------------------------------|
 | index.php                | Detailed view page of post requiring an id URL parameter                                          |
 | edit.php                 | Post editor integrated with tinyMCE for users only                                                |

@@ -25,19 +25,19 @@ $( document ).ready(() => {
                     `<td width="1%" style="white-space: nowrap">` +
                         `<form action="includes/post.inc.php?id=${id}" method="post">` +
                       `<div class="d-flex d-md-none flex-column">` +
-                          `<a href="../../page?id=${id}">` +
+                          `<a href="../../post?id=${id}">` +
                             `<button type="button" class="btn btn-primary rounded-pill mx-1">View</button>` +
                           `</a>` +
-                          `<a href="../../../page/edit.php?id=${id}">` +
+                          `<a href="../../../post/edit.php?id=${id}">` +
                             `<button type="button" class="btn btn-warning rounded-pill my-1">Edit</button>` +
                           `</a>` +
                           `<button type="button" class="btn btn-danger rounded-pill my-1">Delete</button>` + 
                       `</div>` +
                       `<div class="d-none d-md-block">` +
-                          `<a href="../../page?id=${id}">` +
+                          `<a href="../../post?id=${id}">` +
                             `<button type="button" class="btn btn-primary rounded-pill mx-1">View</button>` +
                           `</a>` +
-                          `<a href="../../page/edit.php?id=${id}">` +
+                          `<a href="../../post/edit.php?id=${id}">` +
                             `<button type="button" class="btn btn-warning rounded-pill mx-1">Edit</button>` +
                           `</a>` +
                           `<button type="submit" name="submit-delete" class="btn btn-danger rounded-pill mx-1">Delete</button>` +

@@ -98,9 +98,9 @@ function formatPost({id, title, author, description, content, thumbnail, date_cr
                   `&nbsp;·&nbsp;${getMinuteRead(title + author + description + content)}` +
                 `</div>` +
                 `<p class="mb-auto">${description}</p>` +
-                `<a href="page?id=${id}" class="stretched-link">Continue reading</a>` +
+                `<a href="post?id=${id}" class="stretched-link">Continue reading</a>` +
               `</div>` +
-              `<div style="${thumbnail ? "background-image: url('page/includes/" + thumbnail + "');" : ""} background-size: cover; background-position: center; background-color: var(--bs-body-color); width: 200px; height: 250px;" class="col-auto d-none d-lg-block">` +
+              `<div style="${thumbnail ? "background-image: url('post/includes/" + thumbnail + "');" : ""} background-size: cover; background-position: center; background-color: var(--bs-body-color); width: 200px; height: 250px;" class="col-auto d-none d-lg-block">` +
               `</div>` +
             `</div>` +
           `</div>`
@@ -112,7 +112,7 @@ function formatFeaturedPost({id, title, description, thumbnail}) {
               `<h1 class="display-4 fst-italic">${title}</h1>` +
               `<p class="lead my-3">${description}</p>` +
               `<p id="post-${id}-actions" class="lead mb-0">` +
-                `<a href="page?id=${id}" class="text-white fw-bold">Continue reading...</a>` +
+                `<a href="post?id=${id}" class="text-white fw-bold">Continue reading...</a>` +
               `</p>` +
             `</div>` +
           `</div>` +
@@ -129,7 +129,7 @@ function formatFeaturedPost({id, title, description, thumbnail}) {
               `z-index: -1;` +
               `display: block;` +
               `background-color: RGBA(33,37,41,var(--bs-bg-opacity,1)) !important;` +
-              (thumbnail ? `background-image: url('page/includes/${thumbnail}');` : "") +
+              (thumbnail ? `background-image: url('post/includes/${thumbnail}');` : "") +
               `background-size: cover;` +
               `background-position: center` +
               `width: 100%;` +
