@@ -1,6 +1,7 @@
 ## Simple CMS task
 ***
 
+<img src="https://raw.githubusercontent.com/suntoes/simple-cms/master/post/images/preview.png" alt="preview" width="400"/>
 A basic CMS that allow users to create posts from an admin dashboard and display it on the public facing side of the app/website.
 
 <br />
