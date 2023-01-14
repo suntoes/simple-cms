@@ -69,3 +69,8 @@ LOGIN & SIGNUP (/login.php & /signup.php):
 | js/main.js               | Jquery and Ajax implementation for obtaining and viewing existing post data                       |
 | includes/post.inc.php    | Api handler for post dashboard data view and deletion of post                                     |
 
+***
+## Tech used
+***
+
+PHP (procedural), SQL, Bootstrap, Jquery, Ajax & TinyMCE
