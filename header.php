@@ -88,7 +88,7 @@
 <body>
 <div id="wrapper" class="min-vh-100 d-flex flex-column justify-content-between" align-items-center>
 <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5 px-1">
-  <div class="container-fluid">
+  <div class="container">
     <a class="navbar-brand blog-header-logo text-dark" href="./">Simple CMS</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
