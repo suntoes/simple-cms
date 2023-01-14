@@ -10,17 +10,21 @@ A basic CMS that allow users to create posts from an admin dashboard and display
 ## Site explanation:
 ***
 
-HOME (/index.php):
+HOME (/):
 
 * Overview of summary of every posts with image thumbnail if available.
 
-PAGE (/page/index.php):
+PAGE (/page):
 
-* Login and registration for this page with different validations. 
+* Detailed view and editor page for posts.
 
-DASHBOARD (/dashboard/index.php):
+DASHBOARD (/dashboard):
 
 * User only page for posts content CRUD management.
+
+LOGIN & SIGNUP (/login.php & /signup.php):
+
+* Login and registration for this page with different validations. 
 
 <br />
 <br />
@@ -44,7 +48,7 @@ DASHBOARD (/dashboard/index.php):
 | Items in /               | Content                                                                                           |
 | ------------------------ | --------------------------------------------------------------------------------------------------|
 | index.php                | Main page                                                                                         |
-| header.php               | Includes dynamic navigation bar for both public and registered user                               |
+| header.php               | Includes navigation, styling, and search bar function                                             |
 | simplecms.sql            | Contains initial code to setup database for this app                                              |
 | js/main.js               | Jquery and Ajax implementation for infinite scrolling and viewing of post                         |
 | includes/dbh.inc.php     | Main DB connection file also used by other components                                             |
